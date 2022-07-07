@@ -4,10 +4,22 @@ $font-family-sans-serif: 'Roboto', sans-serif;
 $navbar-nav-link-padding-x: 2rem;
 
 $nav-link-font-size: 1.3rem;
-$primary: blue;
 
 $btn-border-radius: .5rem;
 
 
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import "./node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+.width-build {
+    width: 80%;
+}
+
+
+
+.btn-doc {
+    background-color: #E1E7FC;
+    color: $primary;
+    padding: .9rem .9rem;
+}

@@ -7,15 +7,15 @@ let newArr = arr1.concat(arr2);
 console.log('new  arr',newArr);
 let pureArray = [...new Set(newArr)];
 console.log('pure ',pureArray);
-// let sortingArray = pureArray.sort((a,b)=>a - b);
-// console.log('sorting ',sortingArray)
+let sortingArray = pureArray.sort((a,b)=>a - b);
+console.log('sorting ',sortingArray)
 
 
 let next =  [1, [2], [3, [[4]]],[5,6]];
-// // let next = array1.toString()
-// //                     .split(',')
-// //                     .map(Number);
-// // console.log('next ',next)
+let next = array1.toString()
+                    .split(',')
+                    .map(Number);
+console.log('next ',next)
 let array1 = next.flat(Infinity);
 console.log('next ',array1);
 let array2 = [1, 2, 3, 4, 5];
